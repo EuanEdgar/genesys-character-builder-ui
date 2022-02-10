@@ -32,190 +32,245 @@ export const loadSetting = (id) => {
     ],
     skills: [
       {
-        name: "alchemy",
+        name: "Alchemy",
         key: "alchemy",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "arcana",
+        name: "Arcana",
         key: "arcana",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'magic',
       },
       {
-        name: "astrocartography",
+        name: "Astrocartography",
         key: "astrocartography",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "athletics",
+        name: "Athletics",
         key: "athletics",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "brawl",
+        name: "Brawl",
         key: "brawl",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "charm",
+        name: "Charm",
         key: "charm",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'social',
       },
       {
-        name: "coercion",
+        name: "Coercion",
         key: "coercion",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'social',
       },
       {
-        name: "computers",
+        name: "Computers",
         key: "computers",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "cool",
+        name: "Cool",
         key: "cool",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "coordination",
+        name: "Coordination",
         key: "coordination",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "deception",
+        name: "Deception",
         key: "deception",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'social',
       },
       {
-        name: "discipline",
+        name: "Discipline",
         key: "discipline",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "divine",
+        name: "Divine",
         key: "divine",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'magic',
       },
       {
-        name: "driving",
+        name: "Driving",
         key: "driving",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "gunnery",
+        name: "Gunnery",
         key: "gunnery",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "knowledge",
+        name: "Knowledge",
         key: "knowledge",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "leadership",
+        name: "Leadership",
         key: "leadership",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'social',
       },
       {
-        name: "mechanics",
+        name: "Mechanics",
         key: "mechanics",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "medicine",
+        name: "Medicine",
         key: "medicine",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "melee",
+        name: "Melee",
         key: "melee",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "melee",
-        key: "melee",
-        characteristic: "???"
+        name: "Melee (Heavy)",
+        key: "melee-heavy",
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "melee",
-        key: "melee",
-        characteristic: "???"
+        name: "Melee (Light)",
+        key: "melee-light",
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "negotiation",
+        name: "Negotiation",
         key: "negotiation",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'social',
       },
       {
-        name: "operating",
+        name: "Operating",
         key: "operating",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "perception",
+        name: "Perception",
         key: "perception",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "piloting",
+        name: "Piloting",
         key: "piloting",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "primal",
+        name: "Primal",
         key: "primal",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'magic',
       },
       {
-        name: "ranged",
+        name: "Ranged",
         key: "ranged",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "ranged",
-        key: "ranged",
-        characteristic: "???"
+        name: "Ranged (Heavy)",
+        key: "ranged-heavy",
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "ranged",
-        key: "ranged",
-        characteristic: "???"
+        name: "Ranged (Light)",
+        key: "ranged-light",
+        characteristic: "???",
+        group: 'combat',
       },
       {
-        name: "resilience",
+        name: "Resilience",
         key: "resilience",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "riding",
+        name: "Riding",
         key: "riding",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "skulduggery",
+        name: "Skulduggery",
         key: "skulduggery",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "stealth",
+        name: "Stealth",
         key: "stealth",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "streetwise",
+        name: "Streetwise",
         key: "streetwise",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "survival",
+        name: "Survival",
         key: "survival",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       },
       {
-        name: "vigilance",
+        name: "Vigilance",
         key: "vigilance",
-        characteristic: "???"
+        characteristic: "???",
+        group: 'general',
       }
+    ],
+    skillGroups: [
+      {
+        key: 'social',
+        name: 'Social',
+      },
+      {
+        key: 'combat',
+        name: 'Combat',
+      },
+      {
+        key: 'magic',
+        name: 'Magic',
+      },
+      {
+        key: 'general',
+        name: 'General',
+      },
     ],
     species: [
       {

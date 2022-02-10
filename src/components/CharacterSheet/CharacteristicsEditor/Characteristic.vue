@@ -16,6 +16,8 @@
 </template>
 
 <script lang="js">
+import summation from '@/utils/summation'
+
 export default {
   props: [
     'characteristic',
@@ -58,18 +60,7 @@ export default {
       const level = parseInt(value, 10)
 
       if(level !== this.value) {
-        const increase = level > this.value
-
-        let cost = 0
-        if(increase) {
-          for(let x = this.value + 1; x <= level; x++) {
-            cost += x * 10
-          }
-        } else {
-          for(let x = this.value; x > level; x--) {
-            cost -= x * 10
-          }
-        }
+        const cost = (summation(level) - summation(this.value)) * 10
 
         this.$emit('change', {
           characteristic: this.key,
